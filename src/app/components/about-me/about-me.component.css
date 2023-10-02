@@ -1,0 +1,8 @@
+.about-me__container {
+  border: 2px solid blue;
+
+  display: flex;
+  flex-direction:row;
+  height: 500px;
+  background-color: aliceblue;
+}

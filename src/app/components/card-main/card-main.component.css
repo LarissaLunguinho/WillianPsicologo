@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400&display=swap');
+
+.card-main__container {
+  border: 2px solid red;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  text-align: center;
+
+  /* background-color: rgba(225, 215, 191, 0.7); */
+}
+
+.card-main__content {
+  font-family: 'Onest', sans-serif;
+  color: black;
+  padding-left: 35px;
+}
+
+.card-main__content > h1 {
+  font-size: 71px;
+  padding-bottom: 20px;
+}
+
+.card-main__button {
+  padding-left: 230px;
+}
+
+.card-main__button > button{
+  background-color: #1b4d63;
+  color: white;
+  font-size: 25px;
+  font-weight: 540;
+
+  height: 50px;
+  border-radius: 20px;
+}
