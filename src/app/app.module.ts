@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { SpecialtyComponent } from './components/specialty/specialty.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     NavbarComponent,
     WppFloatingComponent,
     CardMainComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    SpecialtyComponent
   ],
   imports: [
     BrowserModule,

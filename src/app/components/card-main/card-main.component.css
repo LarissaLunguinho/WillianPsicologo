@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 .card-main__container {
-  border: 2px solid red;
-  height: 500px;
+  height: 550px;
 
   display: flex;
   flex-direction: column;
@@ -14,26 +13,32 @@
 }
 
 .card-main__content {
-  font-family: 'Onest', sans-serif;
-  color: black;
-  padding-left: 35px;
+  margin-left: 60px;
+  color: #231F20;
+  height: 350px;
 }
 
 .card-main__content > h1 {
   font-size: 71px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .card-main__button {
-  padding-left: 230px;
+  padding-top: 130px;
 }
 
 .card-main__button > button{
-  background-color: #1b4d63;
+  background-color: #D6897B;
   color: white;
   font-size: 25px;
   font-weight: 540;
 
-  height: 50px;
+  height: 55px;
   border-radius: 20px;
+}
+.card-main__button > button:hover{
+  background-color: #E8BCA8;
+  font-size: 28px;
+  box-shadow: 5px;
 }

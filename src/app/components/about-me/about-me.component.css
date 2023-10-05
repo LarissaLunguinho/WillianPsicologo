@@ -1,8 +1,32 @@
-.about-me__container {
-  border: 2px solid blue;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+.about-me__container {
   display: flex;
-  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-family: 'Raleway', sans-serif;
+
   height: 500px;
-  background-color: aliceblue;
+  background-color: #f5f0ed;
+}
+.about-me__text > h1 {
+  font-size: 30px;
+}
+.about-me__image {
+  height: 300px;
+  overflow: hidden;
+
+}
+.about-me__image > img {
+  border-radius: 40px;
+  width: 400px;
+}
+.about-me__text {
+  margin-left: 50px;
+  width: 600px;
+}
+
+.about-me__text > p{
+  margin: 10px;
 }
