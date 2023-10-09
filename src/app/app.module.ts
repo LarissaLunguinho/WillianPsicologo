@@ -12,6 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { SpecialtyComponent } from './components/specialty/specialty.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SpecialtyComponent } from './components/specialty/specialty.component';
     WppFloatingComponent,
     CardMainComponent,
     AboutMeComponent,
-    SpecialtyComponent
+    SpecialtyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

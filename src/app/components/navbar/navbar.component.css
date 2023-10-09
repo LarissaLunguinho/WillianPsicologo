@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
-h1 {
+.navbar__titles > h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   color: #768261;
   font-weight: 600;
 }
+.navbar__titles > h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #4E5640;
+  font-weight: 600;
+  text-align: center;
+}
+
 .nav-link {
   font-size: 18px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .nav-link:hover {
   font-size: 19px;

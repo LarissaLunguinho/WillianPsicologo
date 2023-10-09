@@ -8,8 +8,6 @@
   justify-content: space-around;
   align-items: start;
   text-align: center;
-
-  /* background-color: rgba(225, 215, 191, 0.7); */
 }
 
 .card-main__content {
@@ -19,13 +17,23 @@
 }
 
 .card-main__content > h1 {
-  font-size: 71px;
+  font-size: 61px;
   padding-bottom: 40px;
   font-family: 'Raleway', sans-serif;
 }
+.card-main__content > h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.card-main__content > h3 {
+  font-family: 'Raleway', sans-serif;
+  opacity: 50%;
+}
 
 .card-main__button {
-  padding-top: 130px;
+  padding-top: 95px;
 }
 
 .card-main__button > button{
