@@ -10,8 +10,8 @@
 .content {
   display: flex;
   flex-direction: row;
-
 }
+
 .footer__logo {
   margin: 7px 7px;
 
@@ -27,7 +27,10 @@
   font-size: medium;
   color: white;
 }
-
+.ball_logo{
+  width: 200px;
+  height: 200px;
+}
 .footer_contacts {
   width: 50%;
   color: white;
@@ -71,4 +74,21 @@ i.bi{
 }
 .footer_author > a {
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .ball_logo{
+    width: 170px;
+    height: 180px;
+  }
+  .ball_logo > img {
+    height: 80px;
+    width: 130px;
+  }
+  .footer__logo > p {
+    display: none;
+  }
+  .footer_contacts{
+    width: 60%;
+  }
 }

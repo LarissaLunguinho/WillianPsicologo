@@ -13,3 +13,11 @@ html, body {
   background-size: cover;
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@media (max-width: 480px) {
+  body {
+    background-image: url(/assets/exemplo-will-opaca.jpg);
+    background-size: 200% auto;
+    background-position: center top 70px;
+  }
+}

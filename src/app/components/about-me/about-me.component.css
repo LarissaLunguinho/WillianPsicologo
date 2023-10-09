@@ -13,20 +13,27 @@
 .about-me__text > h1 {
   font-size: 30px;
 }
+.about-me__text {
+  margin-left: 50px;
+}
+.about-me__text > p{
+  margin: 10px;
+}
 .about-me__image {
   height: 300px;
   overflow: hidden;
-
 }
+
 .about-me__image > img {
   border-radius: 40px;
   width: 400px;
 }
-.about-me__text {
-  margin-left: 50px;
-  width: 600px;
-}
 
-.about-me__text > p{
-  margin: 10px;
+@media (max-width: 480px) {
+  .about-me__container{
+    height: 600px;
+  }
+  .about-me__image {
+    display: none;
+  }
 }

@@ -68,3 +68,28 @@
   margin: 0;
   color: #231F20;
 }
+
+@media (max-width: 480px) {
+  .container-fluid {
+    height: 800px;
+  }
+  .container-fluid > h1 {
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .specialty__container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+  }
+  .card {
+    width: 160px;
+    height: 190px;
+  }
+  .img__container{
+    display: none;
+  }
+}

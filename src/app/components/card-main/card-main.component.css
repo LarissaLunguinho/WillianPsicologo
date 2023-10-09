@@ -50,3 +50,22 @@
   font-size: 28px;
   box-shadow: 5px;
 }
+
+@media (max-width: 480px) {
+  .card-main__container {
+    margin-top: 50px;
+  }
+  .card-main__content {
+    margin: 0;
+    padding: 0;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .card-main__content > h1 {
+    font-size: 40px;
+  }
+
+}

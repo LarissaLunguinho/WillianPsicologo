@@ -18,6 +18,7 @@
   margin-bottom: 10px;
   text-align: center;
 }
+
 .nav-link:hover {
   font-size: 19px;
   font-weight: 400;
@@ -27,4 +28,9 @@ i.bi{
   font-size: 25px;
   color: #768261;
   margin-right: 20px;
+}
+@media (max-width: 480px) {
+  .nav-link {
+    text-align: start;
+  }
 }
