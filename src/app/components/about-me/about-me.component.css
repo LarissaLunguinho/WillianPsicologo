@@ -28,6 +28,10 @@
   border-radius: 40px;
   width: 400px;
 }
+.about-me__text {
+  margin-left: 50px;
+  width: 600px;
+}
 
 @media (max-width: 480px) {
   .about-me__container{
