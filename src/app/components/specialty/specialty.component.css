@@ -98,9 +98,6 @@
   .container-fluid {
     height: 950px;
   }
-  .specialty__container {
-    border: 2px solid rgb(88, 85, 226);
-  }
   .card {
     width: 130px;
     height: 250px;
