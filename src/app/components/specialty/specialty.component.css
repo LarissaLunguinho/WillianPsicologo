@@ -90,10 +90,14 @@
   .img__container{
     display: none;
   }
+  .img__container > img{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 380px) {
   .container-fluid {
+    width: 380px;
     height: 950px;
   }
   .card {
@@ -101,6 +105,9 @@
     height: 250px;
   }
   .img__container{
+    display: none;
+  }
+  .img__container > img{
     display: none;
   }
 }

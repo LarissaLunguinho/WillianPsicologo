@@ -25,7 +25,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 @media (max-width: 380px) {
   body {
     background-image: url(/assets/exemplo-will-opaca.jpg);
-    background-size: 215% auto;
-    background-position: center top 200px;
+    background-size: 300% auto;
+    background-position: center top 70px;
   }
 }
