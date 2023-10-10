@@ -23,7 +23,6 @@
   height: 300px;
   overflow: hidden;
 }
-
 .about-me__image > img {
   border-radius: 40px;
   width: 400px;
@@ -39,6 +38,12 @@
   }
   .about-me__image {
     display: none;
+  }
+  .about-me__text > h1 {
+    text-align: center;
+  }
+  .about-me__text > p{
+    text-align: justify;
   }
 }
 
