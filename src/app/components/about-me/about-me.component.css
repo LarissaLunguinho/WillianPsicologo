@@ -55,4 +55,8 @@
   .about-me__image {
     display: none;
   }
+  .about-me__text{
+    margin: 2px;
+    padding: 0;
+  }
 }

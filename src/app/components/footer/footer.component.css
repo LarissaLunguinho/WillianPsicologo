@@ -102,4 +102,8 @@ i.bi{
   .footer__logo > p {
     display: none;
   }
+  .ball_logo > img {
+    height: 75px;
+    width: 110px;
+  }
 }
