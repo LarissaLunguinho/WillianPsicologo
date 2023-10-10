@@ -93,3 +93,19 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .container-fluid {
+    height: 950px;
+  }
+  .specialty__container {
+    border: 2px solid rgb(88, 85, 226);
+  }
+  .card {
+    width: 130px;
+    height: 250px;
+  }
+  .img__container{
+    display: none;
+  }
+}

@@ -30,6 +30,7 @@
 .ball_logo{
   width: 200px;
   height: 200px;
+  background-color: white;
 }
 .footer_contacts {
   width: 50%;
@@ -90,5 +91,15 @@ i.bi{
   }
   .footer_contacts{
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .ball_logo{
+    width: 110px;
+    background-color: #D6897B;
+  }
+  .footer__logo > p {
+    display: none;
   }
 }

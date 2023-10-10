@@ -69,3 +69,11 @@
   }
 
 }
+
+@media screen and (max-width: 380px) {
+  .card-main__container {
+    width: 380px;
+    height: 450px;
+    margin-top: 123px;
+  }
+}

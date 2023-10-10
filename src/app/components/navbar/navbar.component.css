@@ -34,3 +34,9 @@ i.bi{
     text-align: start;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .navbar__container {
+    width: 380px;
+  }
+}
